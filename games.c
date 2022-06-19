@@ -290,11 +290,8 @@ int rps()
                rps1 = getch();
                printf("*** \n");
                fflush(stdin);
-               if (rps1 == 'r' || rps1 == 'p' || rps1 == 's')
-               {
-                    break;
-               }
-          }while(1);
+
+          }while(rps1 != 'r' && rps1 != 'p' && rps1 != 's');
 
 
           //PLAYER 2 move
@@ -305,11 +302,8 @@ int rps()
                rps2 = getch();
                printf("*** \n");
                fflush(stdin);
-               if (rps2 == 'r' || rps2 == 'p' || rps2 == 's')
-               {
-                    break;
-               }
-          }while(1);
+
+          }while(rps2 != 'r' && rps2 != 'p' && rps2 != 's');
 
 
            //WHEN PLAYER 2 CHOOSES ROCK
@@ -483,7 +477,7 @@ int wordle1 ()
 
     if ( fp == NULL)
     {
-        printf("Error reading the file\n");
+        printf("\nError reading the file\n");
         return 1;
     }
     
@@ -499,7 +493,7 @@ int wordle1 ()
     strcpy(word, allwords[random].wordleword);
 
     green();
-    printf("WELCOME TO WORDLE\n");
+    printf("\nWELCOME TO WORDLE\n");
     reset();
 
     do
