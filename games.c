@@ -1,9 +1,12 @@
+//DECLARING ALL THE LIBRARIES INCLUDE IN THE PROGRAM
+
 #include <stdio.h>
-#include <string.h>            //DECLARING ALL THE LIBRARIES INCLUDE IN THE PROGRAM
-#include <ctype.h>
+#include <string.h>
+#include <ctype.h>                     
 #include <stdlib.h>
 #include <time.h>
 #include <conio.h>
+
 
 //DECLARING A STRUCT TO STORE ALL THE QUESTIONS AND ANSWERS FROM FILE (FOR QUIZ)
 typedef struct 
