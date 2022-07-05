@@ -641,7 +641,7 @@ int scrabble1()
     printf("\nEnter your words\n");
     printf("\n\nplayer 1 :");
     reset();
-    scanf("%s", &player1);
+    scanf("%s", player1);
     fflush(stdin);
 
     //CHECKING IF THE WORD EXIST
@@ -667,7 +667,7 @@ int scrabble1()
     yellow();
     printf("\n\nplayer 2 :");
     reset();
-    scanf("%s", &player2);
+    scanf("%s", player2);
     fflush(stdin);
 
 
