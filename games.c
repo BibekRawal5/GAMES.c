@@ -7,6 +7,7 @@
 #include <time.h>
 #include <conio.h>
 
+
 //MAKING A STRUCT TO STORE ALL THE WORDS LOADED FROM THE DICTIONARY
 typedef struct 
 {
@@ -76,6 +77,7 @@ int main()
     //DECLARING A GOTO LABEL
     start:
 
+    green();
     //ADKING USER WHICH GAME THEY WANT TO PLAY
     printf("What game do you want to play ? (Press the  number of the game written on the left)\n");
     printf("1. WORDLE\n");
@@ -818,10 +820,6 @@ int compute_score(char p1[], char p2[])
   
 
 }
-
-
-
-
 
 
 
