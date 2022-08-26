@@ -7,7 +7,6 @@
 #include <time.h>
 #include <conio.h>
 
-
 //MAKING A STRUCT TO STORE ALL THE WORDS LOADED FROM THE DICTIONARY
 typedef struct 
 {
